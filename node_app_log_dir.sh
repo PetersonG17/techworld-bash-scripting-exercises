@@ -8,7 +8,7 @@ else
     mkdir $log_dir
     if [[ $? != 0 ]]
     then
-        echo "Invalid log directory: $log_dir"
+        echo "Error creating log directory: $log_dir"
         exit 1
     else
         echo "Created log directory at: $log_dir"
